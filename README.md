@@ -110,9 +110,9 @@ The Kameleoon provider provides a few predefined parameters that you can use to 
 | `DataType.CUSTOM_DATA` | The parameter is used to set [`CustomData`](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/java-sdk/#customdata) for a visitor.     |
 | `DataType.CONVERSION`  | The parameter is used to track a [`Conversion`](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/java-sdk/#conversion) for a visitor. |
 
-### Data.CustomData
+### DataType.CUSTOM_DATA
 
-Use `Data.CustomData` to set [`CustomData`](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/java-sdk/#customdata) for a visitor. The `Data.CustomData` field has the following parameters:
+Use `DataType.CUSTOM_DATA` to set [`CustomData`](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/java-sdk/#customdata) for a visitor. The `DataType.CUSTOM_DATA` field has the following parameters:
 
 | Parameter               | Type   | Description                                                       |
 |-------------------------|--------|-------------------------------------------------------------------|
@@ -134,9 +134,9 @@ Map<String, Value> customDataDictionary = new HashMap<String, Value>(){{
 EvaluationContext context = new ImmutableContext("userId", customDataDictionary);
 ```
 
-### Data.Conversion
+### DataType.CONVERSION
 
-Use `Data.Conversion` to track a [`Conversion`](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/java-sdk/#conversion) for a visitor. The `Data.Conversion` field has the following parameters:
+Use `DataType.CONVERSION` to track a [`Conversion`](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/java-sdk/#conversion) for a visitor. The `DataType.CONVERSION` field has the following parameters:
 
 | Parameter                | Type  | Description                                                     |
 |--------------------------|-------|-----------------------------------------------------------------|
